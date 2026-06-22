@@ -308,44 +308,27 @@ section {
     font-size: 17px;
 }
 
-#publico-alvo{
-    padding: 80px 10%;
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
 }
 
-.publico-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 50px;
+.card{
+    background:#1a1030;
+    padding:30px;
+    border-radius:20px;
+    border:2px solid #32214f;
+    transition:.4s;
 }
 
-.card-publico{
-    width: 280px;
-    background: rgba(255,255,255,0.05);
-    border: 2px solid #8E2CC2;
-    border-radius: 20px;
-    padding: 30px;
-    text-align: center;
-    transition: .3s;
+.card:hover{
+    transform:translateY(-10px);
 }
 
-.card-publico:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 0 20px #8E2CC2;
-}
-
-.card-publico span{
-    font-size: 45px;
-}
-
-.card-publico h3{
-    margin: 20px 0;
-    color: #FFD700;
-}
-
-.card-publico p{
-    line-height: 1.6;
+.card h3{
+    margin-bottom:15px;
+    color:#ffe600;
 }
 
 footer {
