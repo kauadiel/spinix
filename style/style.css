@@ -264,6 +264,51 @@ section {
   background: linear-gradient(135deg, #FF0000, #C4302B);
 }
 
+
+#planta{
+    padding: 80px 10%;
+}
+
+.planta-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.planta-container img{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+
+.descricao-planta{
+    flex: 1;
+    min-width: 300px;
+}
+
+.descricao-planta h3{
+    color: #8E2CC2;
+    margin-bottom: 15px;
+}
+
+.descricao-planta p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.descricao-planta ul{
+    list-style: none;
+    padding: 0;
+}
+
+.descricao-planta li{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+
 footer {
 
   padding: 50px;
